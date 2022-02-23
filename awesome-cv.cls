@@ -886,6 +886,8 @@
     \setunit*{\addcomma\space}%
     \printfield{note}%
     \setunit*{\addcomma\space}%
+    \printfield{howpublished}%
+    \setunit*{\addcomma\space}%
     \printfield{year}%
     \setunit{\addcomma\space}%
     \printlist{location}%
