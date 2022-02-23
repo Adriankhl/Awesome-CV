@@ -810,6 +810,7 @@
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
 \DeclareFieldFormat[misc]{title}{#1\par}
+\DeclareFieldFormat[software]{title}{#1\par}
 \DeclareFieldFormat[report]{title}{#1\par}
 \DeclareFieldFormat[incollection]{title}{#1\par}
 
@@ -888,6 +889,25 @@
     \printfield{year}%
     \setunit{\addcomma\space}%
     \printlist{location}%
+    \newunit%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+\DeclareBibliographyDriver{software}{%
+  \fontsize{9pt}{1em}\bodyfont%
+  \printfield{title}%
+  \newblock%
+  \printnames{author}%
+  \par%
+  \newblock%
+  {%
+    \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
+    \printfield{howpublished}%
+    \setunit*{\addcomma\space}%
+    \printfield{doi}%
+    \setunit*{\addcomma\space}%
+    \printfield{year}%
     \newunit%
   }
   \par\vspace{0.3\baselineskip}
