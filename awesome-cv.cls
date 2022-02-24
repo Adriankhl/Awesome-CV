@@ -907,8 +907,6 @@
     \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
     \printfield{howpublished}%
     \setunit*{\addcomma\space}%
-    \printfield{doi}%
-    \setunit*{\addcomma\space}%
     \printfield{year}%
     \newunit%
   }
