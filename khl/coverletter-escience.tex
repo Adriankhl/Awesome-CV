@@ -1,0 +1,174 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./profile}
+\name{}{LAI Kwun Hang (Adrian)}
+\position{Phd Candidate}
+%\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+\mobile{(+31) 6-2184-1392}
+\email{adrian.k.h.lai@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{Adriankhl}
+\linkedin{adrian-k-h-lai}
+\orcid{0000-0003-0446-119X}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``We are all in the gutter, but some of us are looking at the stars"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {The Netherlands eScience Center}
+  {Stichting Netherlands eScience Center\\Science Park 402 (Matrix THREE)\\1098 XG Amsterdam, The Netherlands}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Research Software Engineer – Social Sciences \& Humanities}
+% How the letter is opened
+\letteropening{Dear Hiring Manager,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}%\today}
+  {}%Claud D. Park~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I identify myself as a physicist, in a social science department, working mostly on software development.
+During my master research in astrophysics,
+I learned to work with Linux, supercomputers, simulation, and data analysis.
+Then, I came to Leiden to do my PhD in social science,
+which I gained some experiences in databases, textual analysis, machine learning, network analysis,
+and agent-based simulation.
+
+Because of some catastrophic engineering mistakes made by the developers in a foreign institute,
+my primary research project became impossible to continue.
+To rescue my PhD, I decided to dive deep into software development.
+I dedicated over 2 years to develop an open source agent-based simulation framework for interstellar social model
+in 4D, relativistic spacetime.
+On top of the framework, I have also developed a turn-based strategy game with server-client architecture
+and GUI that works on PC and Android.
+I am quite proud of being able to leverage my knowledge on physics, social science, and software development
+to independently create such a cool software from scratch, and I have shared it in multiple social science conferences
+and software development conferences.
+
+I am also an enthusiastic open source contributor. 
+Whenever I come across a bug in an open source software,
+I always try to fix it and contribute back a pull request if possible.
+I particularly enjoy to work on C++ software because it helps me
+to build up my engineering skill for lower-level details,
+which I rarely had the chance to practice in my social science research projects.
+
+\lettersection{Why the Netherlands eScience Center?}
+The failure of my primary resesarch project taught me a lesson -
+it is of utmost importance to have competitive research software engineers.
+I have talked to several people from the eScience Center last year,
+and I am impressed by the idea of gathering software talents in a place to support research.
+So far, the center seems to be a pretty successful social experiment.
+As a technical person who enjoy intellectual challenges,
+I am excited to see the possibility to work on a variety of the software projects within the center.
+
+In conclusion, my quantitative background, my experience in social science research,
+and my capability of doing proper software development make me a good fit
+for the eScience Center and specifically this position.
+Thank you for your consideration, I am looking forward to hearing back from your team.
+
+%\lettersection{Why Me?}
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
