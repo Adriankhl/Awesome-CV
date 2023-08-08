@@ -1,0 +1,173 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./profile}
+\name{}{LAI Kwun Hang (Adrian)}
+\position{Phd Candidate}
+%\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+\mobile{(+31) 6-2184-1392}
+\email{adrian.k.h.lai@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{Adriankhl}
+\linkedin{adrian-k-h-lai}
+\orcid{0000-0003-0446-119X}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``We are all in the gutter, but some of us are looking at the stars"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {ING bank}
+  {Amsterdam}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Medior Model Validator - Business \& Operational Analytics}
+% How the letter is opened
+\letteropening{Dear Marijke Fischer,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}%\today}
+  {}%Claud D. Park~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I identify myself as a physicist, in a social science department, working mostly on software development.
+Because of my interdisciplinary research background,
+I have experience in processing, analyzing and visualizing a variety of data in natural science and social science.
+The typical data pipeline in my current institute involves queries from a Microsoft SQL Server,
+which teaches me solid knowledge in SQL.
+
+Over the last two and a half years,
+I have been working on a Kotlin project for my PhD -
+an agent-based simulation framework and a turn-based strategy game in 4D, relativistic spacetime,
+such that people can utilize it to study interstellar societies.
+The game has a http-based server-client architecture for multiplayer and a functioning GUI,
+and the computation and communication are parallelized by coroutine.
+The software follows good software development practice, e.g., having unit testing and logging.
+I am quite proud of being able to create such a cool software from scratch,
+and I have presented the project in many different conferences including KotlinConf.
+Since Kotlin is closely related to Java,
+I have the confident to be a competent Java developer as well.
+
+Besides academic work, I am an enthusiastic open source contributor. 
+Whenever I come across a bug in an open source software,
+I always try to fix it and contribute back a pull request if possible.
+It is fun to learn about new projects and pick up new programming languages.
+
+\lettersection{Why Adyen?}
+As someone from academia,
+I am always curious about how it is like to work on real-world application
+on a global scale.
+Adyen, being a top player in the payment industry,
+provides such an opportunity.
+Being in the Netherlands for a while,
+I really appreciate Dutch's inclusiveness and directness,
+which are also the core values of Adyen.
+The competitiveness and the vision of Adyen make it an attractive workplace.
+
+In conclusion, my technical capabilities and data-oriented research experiences
+fit well for this position.
+Thank you for your consideration, I am looking forward to hearing back from your team.
+
+%\lettersection{Why Me?}
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
