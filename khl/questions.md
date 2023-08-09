@@ -1,3 +1,10 @@
+## Indie game developer description
+As a by-product of my PhD research, I have created a turn-based strategy game in 4D, relativistic spacetime
+
+## GPA
+Bachelor, Master
+
+
 ## Please, describe the project you are most proud of. What was the technical problem and how did you solve it? What was your contribution to the project?
 
 I am very proud of my project - Relativitization, which is an agent-based simulation framework and also a turn-based strategy game in 4D, relativistic spacetime. Social scientists can use the framework to build models to study interstellar society, and others can just have fun with the game. The software is written in Kotlin. I am the creator and the sole developer of the project. You can find it at https://github.com/Adriankhl/relativitization
