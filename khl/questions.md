@@ -4,6 +4,10 @@ As a by-product of my PhD research, I have created a turn-based strategy game in
 ## GPA
 Bachelor, Master
 
+## Link
+https://github.com/Adriankhl
+https://www.linkedin.com/in/adrian-k-h-lai
+
 
 ## Please, describe the project you are most proud of. What was the technical problem and how did you solve it? What was your contribution to the project?
 
