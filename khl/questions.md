@@ -2,7 +2,7 @@
 As a by-product of my PhD research, I have created a turn-based strategy game in 4D, relativistic spacetime
 
 ## GPA
-Bachelor, Master
+Bachelor 3.314, Master 3.367
 
 ## Link
 https://github.com/Adriankhl
