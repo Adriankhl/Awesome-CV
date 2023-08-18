@@ -45,4 +45,6 @@ Because of my interest in security, I would like to contribute to DevOps with an
 
 Besides that, as someone who has been working on data-oriented research for some years, I always have the special interest in the big data technology. While I have experience in working in "biggish" data (in the order of TB), but they don't require any distributed processing framework, such as Spark. The scale of ING bank should provide me some opportunities to work on "actually big" data. My research experience and my skills in Java/Kotlin make me a natural fit in this domain.
 
+## Describe a time when you have spotted an opportunity to improve process. What did you do? 
 
+## How do you think this role contributes to the success of the airline?
