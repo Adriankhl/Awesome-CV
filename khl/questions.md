@@ -48,3 +48,23 @@ Besides that, as someone who has been working on data-oriented research for some
 ## Describe a time when you have spotted an opportunity to improve process. What did you do? 
 
 ## How do you think this role contributes to the success of the airline?
+
+## Indie game developer: Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
+During my PhD journey, my passion for simulations and physics led me to put a lot of effort into creating an advanced simulation framework and a game using Kotlin. The framework simulates agent-based models in a relativistic spacetime, which could create some interesting phenomena.
+
+Expanding on this framework, I came up with creative gameplay ideas that work with relativistic physics. For example, I replaced a global market with local economies to prevent information from traveling faster than light. Also, I set up a way for multiple players to connect through a server-client setup, and I made a user-friendly interface that works on both PCs and Android devices. To showcase my work, I have written 2 papers and presented the framework/game in multiple conferences, such as FOSDEM and KotlinConf.
+
+Building the game from scratch was incredibly rewarding. I had to design the overall structure, optimize algorithms for calculating relativistic spacetime effects, choose the right libraries, create a code-generation plugin to simplify the framework, write documentation and examples to demonstrate how the framework should be used, write tests using JUnit and GitHub Actions to ensure everything is functioning correctly, and finally, release the game. This experience has transformed me into a versatile scientific software developer.
+
+Here is the repository: https://github.com/adriankhl/relativitization
+
+## Research of research institute: Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
+
+I worked within an international team spanning 5 countries. My team studied the question "who gets research funding and why does it matter?". I am responsible of doing all kinds of techinical work, e.g., processing the data in SQL and Python, formalizing the statistical/Bayesian models, implementing the model in Python, and analyzing the data. We have found gender biases in some of the funding schemes. In addition to the standard data analysis pipeline, I have also created some equation-based and agent-based models to study the behaviour of funding applicants. To explore different agent-based model libraries, I have implemented the models in Java, Python, and Julia, and I found this a good strategy to validate the models.
+
+Besides deepening my knowledge in modeling and data analysis, the biggest lesson I learnt from this is the importance of proper collaboration. Because of the confidentiality requirements, there was an engineering team to work on the data platform. Because of some questionable decision made by the engineering team, our data and scripts got completed erased. This is unacceptable in a real world business. My team, the major user of the data platform, should pay more attention to the implementation details of the data platform to ensure the quality of the product.
+
+## Ligo Scientific Collaboration: Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
+
+
+
