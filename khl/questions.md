@@ -70,6 +70,22 @@ In essence, my journey enriched my data analysis skills, honed my modeling exper
 
 ## Ligo Scientific Collaboration: Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
 
-Being in a Nobel-prize winning, huge collaboration, my job was to explore a small sub-direction in gravitational waves physics. I developed understanding of advanced physics theories such as gravitational waves diffraction and black-hole horizen effects, then I implemented the corresponding models in C, ran simulations using supercomputer, and conducted data analysis using Python. I have published 2 papers in reputable journals and I presented the results at conferences.
+Within a Nobel Prize-winning collaboration, I focused on a gravitational waves physics sub-direction. Navigating intricate theories like gravitational waves diffraction and black-hole horizon effects, I implemented models in C, conducted simulations on a supercomputer and analyzed data in Python. This led to two published journal papers and conference presentations. This experience bolstered my technical proficiency across C, Python, Linux systems, supercomputing, and simulations.
 
-Through this experience, I gained proficiency in a range of technical areas, including C, Python, Linux systems, supercomputing, and simulations. Additionally, I faced a problem where the simulation of a diffraction equations was too slow, and I figured out an optimization technique to use a cache to speed up the computation. This has equipped me to take on complex technical challenges with confidence.
+Amidst these responsibilities, a defining moment emerged when I encountered a considerable computational bottleneck while simulating diffraction equations. To overcome this hurdle, I figured out an optimization technique that leveraged caching, resulting in a significant acceleration of the computation process. This boosted my confidence in addressing intricate technical challenges.
+
+## Programming Languages: Please give further details of your proficiency in this skill
+I have developed a simulation framework and a game from scratch using Kotlin.
+I use Python extensively for data analysis.
+I have experience in multiple programming languages, such as Java, Julia, C++, and I have contributed to open source projects using these languages. Please check my GitHub PR page for all my contributions: https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AAdriankhl
+
+## Databases: Please give further details of your proficiency in this skill
+I use mainly Microsoft SQL in my current institute to manipulate data.
+
+## Microsoft C++: Please give further details of your proficiency in this skill
+I can work with big C++ codebase and debug issues. For example, I fixed a threading problem here: https://github.com/vcmi/vcmi/pull/1868
+
+## Spreadsheet: Please give further details of your proficiency in this skill
+I sometimes use spreadsheet to do data analysis, mostly Google Sheets for collaboration. I even had experience to run simulations in a spreadsheet during an undergraduate course.
+
+
