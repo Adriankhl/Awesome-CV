@@ -1,0 +1,144 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./profile}
+\name{}{LAI Kwun Hang (Adrian)}
+\position{Phd Candidate}
+%\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+\mobile{(+31) 6-2184-1392}
+\email{adrian.k.h.lai@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{Adriankhl}
+\linkedin{adrian-k-h-lai}
+\orcid{0000-0003-0446-119X}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``We are all in the gutter, but some of us are looking at the stars"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Picnic}
+  {Amsterdam, North Holland, Netherlands}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Warehouse Simulation Software Engineer}
+% How the letter is opened
+\letteropening{Dear Hiring Manager,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}%\today}
+  {}%Claud D. Park~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am writing to express my enthusiastic interest in the "Warehouse Simulation Software Engineer" position at Picnic. As a dedicated researcher who has spent the majority of my career working in simulation, I am excited to seize the opportunity to apply my expertise to real-world business challenges through this role.
+
+My journey commenced in the field of physics, where I constructed simulation models for celestial objects, including black holes. This experience not only fortified my proficiency in building intricate models but also equipped me with the ability to calibrate and statistically validate these models using Python. Building upon this foundation, my PhD research embarked on a unique trajectory as I seamlessly integrated my expertise in computational social science. My focus shifted to crafting human-centric models, employing a spectrum of methodologies such as game theory, agent-based simulation, Bayesian networks, and reinforcement learning. I adeptly implemented these models across various programming languages, including NetLogo, Java, Python, and Julia. Furthermore, I gained hands-on experience in validating these models using data stored in SQL databases, refining my skills as a simulation software engineer.
+
+To continually challenge myself, I dedicated significant effort to create a sophisticated simulation framework and a game using Kotlin. This framework serves as the cornerstone for simulating interstellar societies, wherein the temporal delays imposed by relativistic physics hold profound implications — much like the diverse time delays prevalent in real-world signals. My meticulously designed framework adheres to best practices, incorporates comprehensive unit and integration testing, and boasts detailed documentation. This project serves as a testament to my proficiency as a creative researcher and a capable software engineer.
+
+Concurrently with my academic pursuits, I have actively contributed to open-source projects. These experiences have broadened my skill set, propelling me from a scientific programmer to a well-rounded software engineer. This underscores my commitment to the pursuit of excellence in software development and underscores my adaptability in the face of new challenges.
+
+While my prior experience may not directly align with warehouse simulation, I am confident in my ability to contribute significantly to modeling human behavior within warehouse environments. I am fully prepared to bridge any knowledge gaps, including those related to cloud computing technologies.
+
+I am eagerly anticipating the opportunity to join your team and make a meaningful impact. Thank you for considering my application.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
