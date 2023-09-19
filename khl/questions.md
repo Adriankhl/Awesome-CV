@@ -145,3 +145,7 @@ Although I lack prior experience with this particular software, I conducted a br
 https://www.oxfordhealth.nhs.uk/training/adastra-quick-guide/
 
 With my technical background, I am confident in my ability to grasp the system's knowledge independently.
+
+# Bloomberg: Please outline in no more than a 100 words the most relevant skills and experience you have for the specific role you are applying for
+My background in game development and research has equipped me with strong technical skills in data analysis and software development. During my PhD journey, I collaborated with individuals from diverse backgrounds and nationalities, honing my soft skills in communication, teamwork, and cross-cultural engagement. I have a proven track record of delivering effective presentations and organizing workshops, catering to both technical and non-technical audiences. My interdisciplinary educational and research background reflects my ability to rapidly acquire knowledge in new domains, and I'm eager to bridge any knowledge gaps in finance required for this position.
+
