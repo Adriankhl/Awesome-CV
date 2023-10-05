@@ -58,7 +58,7 @@ Building the game from scratch was incredibly rewarding. I had to design the ove
 
 Here is the repository: https://github.com/adriankhl/relativitization
 
-## Research of research institute: Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
+## Research on research institute: Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
 
 I was a pivotal part of a global team spanning 5 countries that dissected the dynamics of research funding allocation, specifically examining gender biases within the schemes. My role encompassed diverse technical tasks, including data manipulation using SQL and Python, crafting intricate statistical and Bayesian models, and translating these models into Python codes.
 
@@ -95,7 +95,7 @@ Crafting the game involved optimizing spacetime effect algorithms, selecting lib
 
 You can find the repository for this project here: https://github.com/adriankhl/relativitization
 
-## Research of research institute: Brief description of your duties & responsibilities
+## Research on research institute: Brief description of your duties & responsibilities
 
 I was a pivotal part of a global team spanning 5 countries that dissected the dynamics of research funding allocation, specifically examining gender biases within the schemes. My role encompassed diverse technical tasks, including data manipulation using SQL and Python, crafting intricate statistical and Bayesian models, and translating these models into Python codes.
 
@@ -149,3 +149,7 @@ With my technical background, I am confident in my ability to grasp the system's
 # Bloomberg: Please outline in no more than a 100 words the most relevant skills and experience you have for the specific role you are applying for
 My background in game development and research has equipped me with strong technical skills in data analysis and software development. During my PhD journey, I collaborated with individuals from diverse backgrounds and nationalities, honing my soft skills in communication, teamwork, and cross-cultural engagement. I have a proven track record of delivering effective presentations and organizing workshops, catering to both technical and non-technical audiences. My interdisciplinary educational and research background reflects my ability to rapidly acquire knowledge in new domains, and I'm eager to bridge any knowledge gaps in finance required for this position.
 
+# Seequent
+As a researcher specializing in simulation software, I am thrilled about the prospect of contributing to your team. My educational background and research exposure have equipped me to excel as a proficient scientific programmer. Moreover, my experience in game development and contributions to open source projects has molded me into a well-rounded software engineer. These skills align seamlessly with the requirements of the position. I am eager to discuss my qualifications further in an interview.
+
+Having resided in the Netherlands for several years, it may be possible for me to get the permanent residency without further sponsorship.
