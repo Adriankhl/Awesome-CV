@@ -1,0 +1,147 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./profile}
+\name{}{LAI Kwun Hang (Adrian)}
+\position{Phd Candidate}
+%\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+\mobile{(+31) 6-2184-1392}
+\email{adrian.k.h.lai@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{Adriankhl}
+\linkedin{adrian-k-h-lai}
+\orcid{0000-0003-0446-119X}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``We are all in the gutter, but some of us are looking at the stars"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Autodesk}
+  {Birmingham, GBR}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Graduate Software Engineer}
+% How the letter is opened
+\letteropening{Dear Hiring Manager,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}%\today}
+  {}%Claud D. Park~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+
+I am writing to express my strong interest in the R\&D Engineer II position at ANSYS, as advertised on your company's website. With a background as a physicist working extensively in software development and a strong passion for pushing the boundaries of technology, I am excited about the prospect of contributing my skills to ANSYS's innovative projects.
+
+My journey began in the realm of physics, where I gained proficiency in a range of technical areas, including C, Python, Linux systems, supercomputing, and simulations. These skills have prepared me well for the role of a research software engineer, equipping me to take on complex technical challenges with confidence. Building upon this foundation, my PhD research took a unique trajectory by blending my expertise in the world of quantitative social sciences. During this time, I directed my efforts towards creating a sophisticated simulation framework and a game using Kotlin, tailored to study interstellar societies while considering relativistic physics — an endeavor that speaks to my ability to tackle intricate subject matter.
+
+I am particularly proud of my accomplishments in designing and implementing this simulation framework. While Kotlin may not be the most performant choice, I invested significant effort in optimizing data structures and algorithms to ensure efficient execution and parallelizability. This project exemplifies my dedication to achieving high performance through meticulous software engineering.
+
+Parallel to my academic pursuits, I have actively engaged with open-source projects, focusing predominantly on C++. These experiences have broadened my skill set, elevating me from a scientific programmer to a well-rounded software engineer. This underscores my commitment to excellence in software development and my readiness to adapt to new challenges.
+
+Although my academic path has led me into an interdisciplinary field that is not strictly science/computer science, I believe that my ability to quickly grasp and master new technical concepts, combined with my proficiency in collaboration, makes me a strong candidate for the R\&D Engineer position. The experience gained from working in diverse teams during my PhD research further bolsters my aptitude as a collaborative team player, an essential quality for success in ANSYS's dynamic environment.
+
+As a Hong Kong citizen currently residing in the Netherlands, I am excited about the possibility of relocating to Canada under the open work permit policy. Thank you for considering my application. I am enthusiastic about the prospect of joining ANSYS and contributing my unique blend of skills and experiences to the team. I look forward to the opportunity for further discussion in an interview setting.
+
+%\lettersection{Why Me?}
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
