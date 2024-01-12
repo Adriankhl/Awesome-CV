@@ -1,0 +1,225 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+%\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+%\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Lai Kwun Hang (Adrian)} \\ \vspace{1pt}
+    \small +31-6-2184-1392 $|$ \href{mailto:adrian.k.h.lai@gmail.com}{\underline{adrian.k.h.lai@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/adrian-k-h-lai}{\underline{linkedin.com/in/adrian-k-h-lai}} $|$
+    \href{https://github.com/Adriankhl}{\underline{github.com/Adriankhl}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Summary}
+Enthusiastic software developer and researcher in computational social science, passionate about taking on challenging projects that carry substantial social impact.
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Leiden University}{Leiden, the Netherlands}
+      {Ph.D. in Quantitative Science Studies}{Jun. 2019 -- present $|$ Expected graduation: early 2024}
+    \resumeSubheading
+      {The Chinese University of Hong Kong}{Hong Kong, China}
+      {M.Phil. in Physics, B.Sc. in Physics, minor in Mathematics}{Sep. 2012 -- Aug. 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Indie game developer}{Leiden, the Netherlands}
+      {Self-employment}{Mar. 2021 -- present}
+      \resumeItemListStart
+        \resumeItem{Independently developed a turn-based strategy game in Kotlin, incorporating sophisticated relativistic physics}
+        \resumeItem{Implemented multiplayer functionality and a user-friendly graphical interface for PC and Android}
+        \resumeItem{Created utility-based AI to determine actions from complex observations}
+        \resumeItem{Managed a codebase with 60K+ lines of code via Git}
+        \resumeItem{Presented the game at various conferences, including KotlinConf}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Researcher}{Leiden, the Netherlands}
+      {Research on Research Institute (RORI)}{Jan. 2020 -- present}
+      \resumeItemListStart
+        \resumeItem{Constructed Bayesian models to analyze the impact of funding application criteria on gender biases}
+        \resumeItem{Developed agent-based models in Java/Python/Julia to study the behavior of funding applicants}
+        \resumeItem{Conducted data analysis using Python and SQL, powered by AWS, PostgreSQL, and MSSQL}
+        \resumeItem{Collaborated with an international team spanning 5 countries}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Researcher}{Hong Kong, China}
+      {LIGO Scientific Collaboration (LSC)}{Sep. 2016 -- Aug. 2018}
+      \resumeItemListStart
+        \resumeItem{Proposed models to detect black-hole horizon effects and gravitational wave lensing}
+        \resumeItem{Contributed to a C codebase for model implementation}
+        \resumeItem{Ran simulations on supercomputer clusters}
+        \resumeItem{Conducted Bayesian statistical analysis on simulated and real data using Python}
+        \resumeItem{Published 2 papers in reputable journals}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{KSerGen} $|$ \emph{Kotlin, KSP, Gradle, Maven Central}}{Apr. 2023 -- present}
+          \resumeItemListStart
+            \resumeItem{Created a KSP plugin to automate generation of immutable data classes and serialization hierarchy}
+            \resumeItem{Published the plugin to Maven Central}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Relativitization} $|$ \emph{Kotlin, Ktor, kotlinx.coroutine, Gradle, Python}}{Mar. 2021 -- present}
+          \resumeItemListStart
+            \resumeItem{Developed a parallel agent-based computational framework utilizing coroutines}
+            \resumeItem{Designed efficient algorithms and data structures for relativistic spacetime calculations}
+            \resumeItem{Automated testing using JUnit and GitHub Actions}
+            \resumeItem{Authored comprehensive documentation}
+            \resumeItem{Built an interstellar knowledge dynamics model, analyzed generated data with Python}
+            \resumeItem{Published 2 papers about the framework and model}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Kotlin, Java, SQL, Python, Julia, C/C++, Bash, LaTeX} \\
+     \textbf{Frameworks and Libraries}{: Ktor, kotlinx.coroutine, KSP, libGDX, pandas, NumPy, Matplotlib} \\
+     \textbf{Tools}{: Git, Linux, Gradle, Vim, Android Studio, IntelliJ} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
