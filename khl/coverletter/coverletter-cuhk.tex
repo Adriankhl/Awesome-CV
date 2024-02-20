@@ -1,0 +1,148 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./profile}
+\name{}{LAI Kwun Hang (Adrian)}
+\position{Phd Candidate}
+%\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+\mobile{(+852) 9171-2155 / (+31) 6-2184-1392}
+\email{adrian.k.h.lai@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{Adriankhl}
+\linkedin{adrian-k-h-lai}
+\orcid{0000-0003-0446-119X}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``We are all in the gutter, but some of us are looking at the stars"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Center for Digital Scholarship, Leiden University}
+  {Leiden}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Data Management Expert with a heart for science}
+% How the letter is opened
+\letteropening{Dear Hiring Manager,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}%\today}
+  {}%Claud D. Park~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am writing to express my strong interest in the “Data Management Expert with a heart for science” position at the Center for Digital Scholarship (CDS). As a Ph.D. candidate at Leiden University, I am eager to contribute my unique blend of expertise to the data management community at Leiden.
+
+My academic journey, spanning physics, mathematics, and social science, has equipped me with a distinctive advantage - I possess a deep understanding of data in both natural and social sciences. This interdisciplinary background positions me as a valuable connector capable of facilitating communication and feedback exchange between different departments within Leiden University.
+
+My current institute, the Centre for Science and Technology Studies (CWTS), is deeply engaged in the realm of open science and FAIR data. I have been working within a team, including our data steward, to understand the academic and policy landscape of FAIR data. Moreover, in one of our focal area “Information \& Openness”, our team is planning to engage with the Research Data Alliance (RDA) working groups. Given that this position also entails participation in data management networks such as RDA, I am well-prepared to coordinate these efforts to avoid duplication of work.
+
+I am passionate about knowledge sharing and have presented my research at many international conferences. Additionally, I have organized workshops on technical topics and open science within my research group. As some of these training materials are now offered by CDS and data stewards, I am excited to continue contributing to training initiatives in this role.
+
+Furthermore, I possess strong software engineering capabilities. My proficiency allows me to explore the possibility of working with the ICT department to offer technical services, such as data storage solutions, which align with practices at other Dutch universities like TU Delft and Wageningen University \& Research. Also, I have been keen on contributing to the Research Software Community Leiden of CDS.
+
+Since I had to leave the country during the pandemic, I didn’t have the chance to practice my Dutch. I am eager to improve my Dutch level in the future.
+
+Thank you for considering my application. I look forward to the opportunity to discuss my qualifications further in an interview.
+
+%\lettersection{Why Me?}
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
