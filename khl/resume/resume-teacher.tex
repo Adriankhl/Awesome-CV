@@ -1,0 +1,226 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+%\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+%\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Lai Kwun Hang (Adrian)} \\ \vspace{1pt}
+    \small +852-9171-2155 $|$ \href{mailto:adrian.k.h.lai@gmail.com}{\underline{adrian.k.h.lai@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/adrian-k-h-lai}{\underline{linkedin.com/in/adrian-k-h-lai}} $|$
+    \href{https://github.com/Adriankhl}{\underline{github.com/Adriankhl}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Summary}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Leiden University}{Leiden, the Netherlands}
+      {Ph.D. in Social and Behavioural Sciences}{Jun. 2019 -- present $|$ Expected graduation: 2024}
+    \resumeSubheading
+      {The Chinese University of Hong Kong}{Hong Kong, China}
+      {M.Phil. in Physics, B.Sc. in Physics, minor in Mathematics}{Sep. 2012 -- Aug. 2018}
+    \resumeSubheading
+      {Shatin Pui Yin College}{Hong Kong, China}
+      {HKDSE: Mathematics compulsory (5*) and Extended (5*), Physics (5)}{Sep. 2006 -- Aug. 2012}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Researcher/Ph.D. Candidate}{Leiden, the Netherlands}
+      {Leiden University}{Jun. 2019 -- present}
+      \resumeItemListStart
+        \resumeItem{Developed an educational game to illustrate the effects of physics}
+        \resumeItem{Designed IT training workshops for non-technical people}
+        \resumeItem{Delivered presentations at various international conferences}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Teaching Assistant}{Hong Kong, China}
+      {The Chinese University of Hong Kong}{Sep. 2016 - Feb. 2018}
+      \resumeItemListStart
+        \resumeItem{Prepared and led tutorials for undergraduate students}
+        \resumeItem{Provide consultation for underperforming students}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Officer}{Hong Kong, China}
+      {The Boy's Brigade}{Sep. 2012 -- Aug. 2018}
+      \resumeItemListStart
+        \resumeItem{sdf}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistant}{Hong Kong, China}
+      {Hong Kong Baptist University}{Aug. 2015 -- May. 2016}
+      \resumeItemListStart
+        \resumeItem{sdf}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Funding and knowledge dynamics} $|$ \emph{Python, igraph, Julia, Agents.jl, Kotlin}}{Aug. 2021 -- present}
+          \resumeItemListStart
+            \resumeItem{Created game theory models in Python to explore funding applicant priorities}
+            \resumeItem{Developed agent-based models in Julia to study scholar behaviors}
+            \resumeItem{Built a simulation framework in Kotlin to study knowledge diffusion under information delays}
+            \resumeItem{Analyzed simulated data using Python and igraph to illustrate the relation between efficiency and funding strategy}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Funding criteria and gender biases} $|$ \emph{Python, PyStan, pandas, SQL}}{Jan. 2020 -- May. 2022}
+          \resumeItemListStart
+            \resumeItem{Manipulated data with SQL and pandas}
+            \resumeItem{Collaborated with domain experts to formulate causal relations}
+            \resumeItem{Designed and implemented Bayesian network models to address funding allocation dynamics}
+            \resumeItem{Analyzed data using PyStan and Python to identify gender biases in funding schemes}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Kotlin, Java, SQL, Python, Julia, C/C++, Bash, LaTeX} \\
+     \textbf{Frameworks and Libraries}{: Ktor, pandas, NumPy, Matplotlib, PyStan} \\
+     \textbf{Tools}{: Git, Linux, Gradle, Vim, Android Studio, IntelliJ} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
