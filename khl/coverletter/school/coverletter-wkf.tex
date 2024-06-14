@@ -1,0 +1,143 @@
+% arara: lualatex
+% arara: clean: { extensions: [ acn,acr,alg,aux,bbl,bcf,blg,glg,glo,gls,idx,ilg,ind,ist,log,lof,lol,lot,out,ptc,toc,run.xml ]}
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./profile}
+\name{}{LAI Kwun Hang (Adrian)}
+\position{Phd Candidate}
+%\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+\mobile{(+852) 9171-2155}
+\email{adrian.k.h.lai@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{Adriankhl}
+\linkedin{adrian-k-h-lai}
+\orcid{0000-0003-0446-119X}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``We are all in the gutter, but some of us are looking at the stars"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Hong Kong Baptist University Affiliated School Wong Kam Fai Secondary and Primary School}
+  {6 On Muk Lane, Shek Mun, Shatin, N.T.}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Physics Teacher (Secondary), (advertised on jump.mingpao.com)}
+% How the letter is opened
+\letteropening{Dear Principal Dr. Benjamin Chan Wai Kai,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}%\today}
+  {}%Claud D. Park~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am writing to express my strong interest in the "Physics (Secondary)" position at Hong Kong Baptist University Affiliated School Wong Kam Fai Secondary and Primary School. As a researcher with a profound passion for education, I am excited about the opportunity to contribute to your school's mission and positively impact students' lives.
+
+I hold both a Master's and a Bachelor's degree from the Chinese University of Hong Kong, majoring in Physics and minoring in Mathematics. Driven by my desire to apply scientific knowledge for societal betterment, I pursued a doctoral degree in Quantitative Social Science at Leiden University in the Netherlands, where I am currently in the final stages of completion. This interdisciplinary background has provided me with a robust theoretical foundation and enabled me to apply mathematical concepts to practical, real-world scenarios.
+
+Throughout my academic journey, I developed a keen interest in education. To further this passion, I created an educational game that effectively illustrates complex physics concepts to students. This experience reinforced my belief in the potential of interactive and engaging teaching methods and ignited my desire to pursue a career in secondary school teaching in Hong Kong.
+
+My academic and youth service career includes various teaching positions where I gained extensive experience instructing individuals from diverse backgrounds. While I have not yet taught full-time in a secondary school, I possess the adaptability to tailor my teaching methods to suit different students' needs. Notably, my voluntary work with the Boy's Brigade required me to manage groups of secondary school students from varying backgrounds, establish strong relationships with these students, and provide them with academic guidance. I firmly believe that my skills and experience will enable me to meet the needs of students at your school.
+
+Although the specialized knowledge I acquired through academic research differs from secondary school curriculum content, the curiosity, problem-solving skills, and data collection abilities cultivated in research are invaluable lifelong assets. I am eager to guide students in developing these skills through my teaching. Additionally, I have had the honor of representing Hong Kong in the 2012 International Physics Olympiad, where I earned a silver medal, and serving as a mentor for the Hong Kong team in 2016. Combining these experiences with my research background, I am confident in my ability to provide additional Mathematics, Physics, and STEAM training to students.
+
+Thank you for considering my application. I have attached my resume for your review. Currently, I am in Hong Kong to complete my thesis, and I would be grateful for the opportunity to discuss my qualifications further.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
